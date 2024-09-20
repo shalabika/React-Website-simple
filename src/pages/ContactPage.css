@@ -1,0 +1,74 @@
+/*Page styling */
+.contact-page {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #2b2b2b;
+  }
+  /*Hero section */
+  .hero-section {
+    background-image: url('./images/background.jpg'); /* Corrected the background image URL for a relative path */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+  
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  text-align: center;
+  width: 100%; 
+  height: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.overlay {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+  .overlay h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+  }
+  
+  .contact-info {
+    padding: 3rem;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info ul li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
